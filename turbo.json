@@ -1,0 +1,28 @@
+{
+    "tasks": {
+        "build": {
+            "dependsOn": [
+                "^build"
+            ],
+            "outputs": [
+                "apps/web/.next/**",
+                "packages/**/dist/**"
+            ]
+        },
+        "dev": {
+            "dependsOn": [
+                "^dev"
+            ]
+        },
+        "lint": {
+            "dependsOn": [
+                "^lint"
+            ]
+        },
+        "test": {
+            "dependsOn": [
+                "^test"
+            ]
+        }
+    }
+}

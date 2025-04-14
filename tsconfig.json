@@ -1,37 +1,32 @@
 {
     "compilerOptions": {
-      "target": "es6",
-      "module": "commonjs",
-      "moduleResolution": "node",
-      "strict": true,
-      "jsx": "react",
-      "esModuleInterop": true,
-      "skipLibCheck": true,
-      "forceConsistentCasingInFileNames": true,
-      "outDir": "./dist",
-      "baseUrl": ".",
-      "paths": {
-        "@packages/*": ["packages/*"],
-        "@apps/*": ["apps/*"]
-      },
-      "resolveJsonModule": true,
-      "lib": ["dom", "dom.iterable", "esnext"],
-      "allowJs": true,
-      "noEmit": true,
-      "isolatedModules": true
+        "target": "es6",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "strict": true,
+        "jsx": "react-jsx",
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "outDir": "./dist",
+        "baseUrl": ".",
+        "paths": {
+            "@packages/*": ["packages/*"],
+            "@apps/*": ["apps/*"]
+        },
+        "resolveJsonModule": true,
+        "lib": ["dom", "dom.iterable", "esnext"],
+        "allowJs": true,
+        "noEmit": true,
+        "isolatedModules": true
     },
-    "include": [
-      "apps/**/*",
-      "packages/**/*",
-      "tsconfig.json"
-    ],
+    "include": ["apps/**/*", "packages/**/*", "tsconfig.json"],
     "exclude": [
-      "node_modules",
-      "dist",
-      "build",
-      ".turbo",
-      "apps/**/.next",
-      "apps/**/node_modules"
+        "node_modules",
+        "dist",
+        "build",
+        ".turbo",
+        "apps/**/.next",
+        "apps/**/node_modules"
     ]
-  }
-  
+}

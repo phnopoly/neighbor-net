@@ -1,0 +1,28 @@
+{
+    "recommendations": [
+        "aaron-bond.better-comments",
+        "aeschli.vscode-css-formatter",
+        "dbaeumer.vscode-eslint",
+        "donjayamanne.githistory",
+        "dotjoshjohnson.xml",
+        "dsznajder.es7-react-js-snippets",
+        "eamodio.gitlens",
+        "esbenp.prettier-vscode",
+        "ethansk.restore-terminals",
+        "formulahendry.auto-rename-tag",
+        "gruntfuggly.todo-tree",
+        "herrmannplatz.npm-dependency-links",
+        "jakob101.relativepath",
+        "kamikillerto.vscode-colorize",
+        "mongodb.mongodb-vscode",
+        "ms-vscode-remote.remote-containers",
+        "orta.vscode-jest",
+        "postman.postman-for-vscode",
+        "rvest.vs-code-prettier-eslint",
+        "streetsidesoftware.code-spell-checker",
+        "thinker.sort-json",
+        "tomoki1207.pdf",
+        "vscode-icons-team.vscode-icons",
+        "vunguyentuan.vscode-css-variables"
+    ]
+}

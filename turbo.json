@@ -1,5 +1,13 @@
 {
-    "tasks": {
+    "pipeline": {
+        "lint": {
+            "dependsOn": [],
+            "outputs": []
+        },
+        "format": {
+            "dependsOn": [],
+            "outputs": []
+        },
         "build": {
             "dependsOn": [
                 "^build"
@@ -14,15 +22,20 @@
                 "^dev"
             ]
         },
-        "lint": {
-            "dependsOn": [
-                "^lint"
-            ]
-        },
         "test": {
             "dependsOn": [
                 "^test"
             ]
+        }
+    },
+    "tasks": {
+        "lint": {
+            "dependsOn": [],
+            "outputs": []
+        },
+        "format": {
+            "dependsOn": [],
+            "outputs": []
         }
     }
 }
